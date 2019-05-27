@@ -23,5 +23,6 @@ stage ('Push Docker Image') {
 stage('Run Container') {
       sh "docker run -p 8084:8080 -d paulsoumi96/devops"
 }
+   
 
 }
