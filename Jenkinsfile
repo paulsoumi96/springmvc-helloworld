@@ -2,7 +2,7 @@ node {
    def mvn1
    def app
    stage('Checkout') { 
-      git 'https://github.com/paulsoumi96/SpringMVC_DevOps201.git'
+      git 'https://github.com/paulsoumi96/springmvc-helloworld.git'
       mvn1 = tool 'MAVEN_HOME'
    }
 stage ('Build') {
